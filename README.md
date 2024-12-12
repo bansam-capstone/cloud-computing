@@ -36,7 +36,7 @@ This API is also implemented using Flask, a lightweight Python web framework. To
 
 ## Endpoints
 
-Base URL: `https://localhost:8080`
+Base URL: `https://localhost:5050
 
 ### Get General Prediction Data
 Retrieve general weather prediction data for Samarinda.
