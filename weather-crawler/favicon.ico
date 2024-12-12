@@ -1,0 +1,21 @@
+const express = require('express');
+const path = require('path');
+
+const app = express();
+const PORT = process.env.PORT || 8080;
+
+// Serve the favicon
+app.get('/favicon.ico', (req, res) => {
+    res.sendFile(path.join(__dirname, 'favicon.ico'));
+});
+
+// Jalankan fungsi fetchWeatherData sebagai rute
+app.get('/', async (req, res) => {
+    await fetchWeatherData();
+    res.send("Data cuaca sedang diambil dan disimpan.");
+});
+
+// Start server
+app.listen(PORT, () => {
+    console.log(`Server berjalan di port ${PORT}`);
+});
