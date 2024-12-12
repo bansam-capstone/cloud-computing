@@ -1,6 +1,6 @@
-# BANSAM API
+# BanSam API
 
-Backend API for BANSAM weather prediction application.
+Backend API for BanSam weather prediction application.
 
 This API provides real-time and future weather prediction data for the BANSAM app. It supports retrieving general weather information for Samarinda, detailed weather data for specific locations, and predictions for the next day. These endpoints empower the BANSAM app to deliver accurate, location-based weather insights and risk level assessments to users.
 
